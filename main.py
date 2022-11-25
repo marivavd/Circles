@@ -17,7 +17,6 @@ class Example(QMainWindow):
 
     def paintEvent(self, event):
         if self.do_paint and not self.first:
-            print(1)
             self.qp = QPainter()
             self.first = True
         if self.do_paint:
